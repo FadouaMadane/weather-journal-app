@@ -1,0 +1,246 @@
+html {
+    background-image: url('img/maxresdefault.jpg');
+    background-size: 169%;
+    background-repeat: no-repeat;
+    position: center;
+    background-position: center;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    font-weight: bold;
+}
+
+#app {
+    display: grid;
+    height: 30em;
+    background: white;
+    color: black;
+    justify-content: center;
+    grid-gap: 1em;
+    font-family: 'Oswald', sans-serif;
+    border-radius: 15%;
+    margin-top: 2em;
+    margin-left: 21em;
+    position: absolute;
+    box-shadow: 5px 10px 10px 5px black;
+    opacity: 45%;
+    width: 40em;
+    height: 35em;
+}
+
+.holder {
+    margin: auto;
+    display: grid;
+}
+
+.feel {
+    display: grid;
+    grid-gap: 5px;
+}
+
+.headline {
+    font-size: 2.5rem;
+}
+
+label {
+    font-size: 1.7rem;
+}
+
+.zip {
+    grid-template-columns: 48% 48%;
+}
+
+button,
+textarea,
+input {
+    font-size: 1.4rem;
+}
+
+button {
+    margin-top: 10px;
+    background-color: black;
+    color: white;
+}
+
+.entry-item {
+    font-size: 1.5rem;
+}
+
+div.entry {
+    font-size: 1.7rem;
+    opacity: 70%;
+    color: coral;
+    transition: ease 0.3s all;
+    font-weight: bold;
+    box-shadow: 5px 10px 10px 5px black;
+    height: 7em;
+    width: 20em;
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) {
+    html {
+        background-image: url('img/maxresdefault.jpg');
+        background-size: 700%;
+        background-repeat: no-repeat;
+        position: center;
+        background-position: center;
+    }
+    #app {
+        width: 45em;
+        height: 85em;
+        margin-left: 7em;
+        margin-top: 10em;
+    }
+    div.entry {
+        font-size: 2rem;
+        height: 15em;
+        width: 20em;
+    }
+    .feel {
+        display: grid;
+        grid-gap: 5px;
+    }
+    .headline {
+        font-size: 3rem;
+    }
+    label {
+        font-size: 2rem;
+    }
+    .zip {
+        grid-template-columns: 48% 48%;
+    }
+    button,
+    textarea,
+    input {
+        font-size: 2rem;
+        height: 4em;
+    }
+    button {
+        margin-top: 10px;
+        background-color: black;
+        color: white;
+        height: 4em;
+    }
+    .entry-item {
+        font-size: 1.5rem;
+    }
+}
+
+@media only screen and (min-device-width: 481px) and (max-device-width: 600px) and (-webkit-min-device-pixel-ratio: 2) {
+    html {
+        background-image: url('img/maxresdefault.jpg');
+        background-size: 500%;
+        background-repeat: no-repeat;
+        position: center;
+        background-position: center;
+    }
+    #app {
+        /* background-color: darkmagenta; */
+        width: 45em;
+        height: 50em;
+        margin-left: 7em;
+        margin-top: 5em;
+    }
+    div.entry {
+        font-size: 2rem;
+        height: 10em;
+        width: 16em;
+    }
+    button {
+        margin-top: 10px;
+        background-color: black;
+        color: white;
+        height: 4em;
+    }
+}
+
+
+/* Landscape */
+
+@media only screen and (min-device-width: 601px) and (max-device-width: 900px) and (-webkit-min-device-pixel-ratio: 2) {
+    html {
+        background-image: url('img/maxresdefault.jpg');
+        background-size: 330%;
+        background-repeat: no-repeat;
+        position: center;
+        background-position: center;
+    }
+    #app {
+        /* background-color: darkmagenta; */
+        width: 45em;
+        height: 50em;
+        margin-left: 7em;
+        margin-top: 4em;
+    }
+    div.entry {
+        font-size: 2rem;
+        height: 7.5em;
+        width: 17em;
+    }
+    button {
+        margin-top: 10px;
+        background-color: black;
+        color: white;
+        height: 3em;
+    }
+}
+
+@media only screen and (min-device-width: 901px) and (max-device-width: 1000px) and (-webkit-min-device-pixel-ratio: 2) {
+    html {
+        background-image: url('img/maxresdefault.jpg');
+        background-size: 240%;
+        background-repeat: no-repeat;
+        position: center;
+        background-position: center;
+    }
+    #app {
+        /* background-color: darkmagenta; */
+        width: 45em;
+        height: 32em;
+        margin-left: 7em;
+        margin-top: 2em;
+        /*   background-color: red; */
+    }
+    div.entry {
+        font-size: 2rem;
+        height: 5em;
+        width: 17em;
+    }
+    button {
+        margin-top: 10px;
+        background-color: black;
+        color: white;
+        height: 3em;
+    }
+}
+
+@media only screen and (min-device-width: 1001px) and (max-device-width: 1300px) and (-webkit-min-device-pixel-ratio: 2) {
+    html {
+        background-image: url('img/maxresdefault.jpg');
+        background-size: 540%;
+        background-repeat: no-repeat;
+        position: center;
+        background-position: center;
+    }
+    #app {
+        /* background-color: darkmagenta; */
+        width: 50em;
+        height: 32em;
+        margin-left: 8em;
+        margin-top: 2em;
+        /* background-color: darkcyan; */
+    }
+    div.entry {
+        font-size: 2rem;
+        height: 5em;
+        width: 20em;
+    }
+    button {
+        margin-top: 10px;
+        background-color: black;
+        color: white;
+        height: 3em;
+        width: 28em;
+    }
+}
